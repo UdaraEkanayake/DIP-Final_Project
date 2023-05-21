@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vehicle Damage Detection Result</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Vehicle Damage Detection</h1>
+    </header>
+
+    <div class="container">
+      <div class="result">
+        <h2>Damage Detected !!!</h2>
+        <p>Type:Collision injury</p>
+        <p>Extent: Body damage</p>
+        <p>Repair Cost Estimate: Approximately Rs.35000</p>
+        <img
+          src="../images/car-crash-concept-illustration_114360-8090.avif"
+          alt="Detected Damage"
+          class="img-preview"
+        />
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Vehicle Damage Detector</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>

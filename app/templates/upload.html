@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Upload Vehicle Image</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Upload Vehicle Image</h1>
+    </header>
+    <div class="container">
+      <form method="POST" enctype="multipart/form-data" action="/">
+        <input type="file" name="image" />
+        <button type="submit">Upload</button>
+      </form>
+    </div>
+    <footer>
+      <p>&copy; 2023 Vehicle Damage Detector</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
