@@ -7,6 +7,14 @@ The project consists of the following components:
 
 Data Collection and Preprocessing: The system requires a dataset of vehicle images with labeled damage information. The images are preprocessed by resizing, normalization, and data augmentation techniques to prepare them for the deep learning model.
 
+## UI Design in upload.html & result.html
+
+<img width="1440" alt="Upload" src="https://github.com/udaraekanayake96/DIP-Final_Project/assets/113182571/43bb8367-8f9b-4209-9e27-de461c8acddd">
+
+<img width="1440" alt="Upload" src="https://github.com/udaraekanayake96/DIP-Final_Project/assets/113182571/9361d545-dd32-4450-b5fe-77d950c0575d">
+
+
+
 1. Damage Detection Model: A Convolutional Neural Network (CNN) model is implemented to detect and localize vehicle damage. The model is trained using the preprocessed dataset and evaluated using appropriate metrics.
 
 2. Damage Classification and Assessment: The damage detection model is extended to classify the type of damage (e.g., scratches, dents, broken glass) and assess the extent of the damage (e.g., minor, moderate, severe). The extended model is trained and evaluated using the dataset.
