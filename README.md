@@ -25,7 +25,7 @@ The project consists of the following components:
 
 To set up and use the project, follow these steps:
 
-1. Clone the repository from GitHub: [repository URL]
+1. Clone the repository from GitHub: https://github.com/udaraekanayake96/DIP-Final_Project.git
 
 2. Install the required dependencies by running pip install -r requirements.txt.
 
