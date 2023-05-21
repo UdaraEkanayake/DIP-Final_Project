@@ -37,9 +37,9 @@ To set up and use the project, follow these steps:
   - result.html
 - static/
   - css/
-     -style.css
-  -js/
-     -script.js
+     - -style.css
+  - js/
+     - -script.js
 - app.py
 - preprocess.py
 - train_damage_classification.py
