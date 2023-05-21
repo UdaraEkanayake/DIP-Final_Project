@@ -29,20 +29,23 @@ To set up and use the project, follow these steps:
 
 ## Project Structure
 
-- data/
+- app/
   - images/
-    - [Place your dataset images here]
-  - labels/
-    - [Place your labeled data or annotations here]
-- models/
-  - [Place the trained models here]
-- src/
-  - [Place the source code files here]
+    - (images are here)
 - templates/
-  - [Place the HTML templates for the user interface here]
+  - upload.html
+  - result.html
 - static/
-  - [Place the static files (CSS, JavaScript, etc.) for the user interface here]
+  - css/
+     -style.css
+  -js/
+     -script.js
+- app.py
+- preprocess.py
+- train_damage_classification.py
+- train_damage_detection.py
+- train_repair_cost_estimation.py
+- venv
+  -resource packages
 - README.md
-- requirements.txt
-- [Other project-related files]
 
